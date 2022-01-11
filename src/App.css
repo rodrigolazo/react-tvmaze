@@ -1,3 +1,8 @@
+body {
+  background: #000 url('img/bg.jpg') no-repeat center center/cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+header {
+  height: 200px;
+}
+
+header img {
+  width: 300px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #474747;
+  text-decoration: none;
 }
